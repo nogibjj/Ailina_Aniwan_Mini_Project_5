@@ -19,7 +19,9 @@ def query_create():
             Women, 
             ShareWomen, 
             Median) 
-            VALUES (77, 1111, 'DATA SCIENCE', 'Computers & Mathematics', 500 , 300, 200, 0.4, 150000)
+            VALUES (
+                77, 1111, 'DATA SCIENCE', 'Computers & Mathematics', 500 , 300, 200, 0.4, 150000
+            )
             """
     )
     conn.commit()

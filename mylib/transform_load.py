@@ -50,7 +50,7 @@ def load(dataset="data/women-stem.csv"):
             ShareWomen, 
             Median) 
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-        payload,
+        valid_rows,
     )
     conn.commit()
     conn.close()
